@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A44999B0-0954-8B58-7899-8504DCC2CE61" name="FakturyPozycje">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="85286E27-2DB8-9619-C372-C6FB71E8A834">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>8E48A310-840D-BB98-66EB-DC34D55FFECB</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Faktura" id="44841993-642B-B363-DAA3-E610608209AD">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<generatorID>C98DDB79-B4FC-9D44-2A29-78AA3AEE4199</generatorID>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>B1FF6C6D-0C89-4B04-41ED-2D4460D2B3D3</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<referedAttribute>7DF79776-3348-9FF3-AEDA-2C5D767FD804</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tresc_pozycji" id="4E4EBBCC-814C-DAC3-2ED9-8DBF7DA7340E">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>03AD0EAB-0CBF-C84E-94FF-A0614F198CFC</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Klient" id="C443DC0A-DA26-9D03-D7AD-0B35DABD6BAC">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<generatorID>C98DDB79-B4FC-9D44-2A29-78AA3AEE4199</generatorID>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>37283BFF-EE88-160E-F1B2-97DF4DA23316</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<referedAttribute>E8F11F52-70BD-4E60-61A2-A9395FF58CD2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Wystawil" id="73D20148-D1C5-0E9C-485D-7ED1316635E5">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:25:32 UTC</createdTime>
+<generatorID>C0941580-6325-142C-99AF-971A147B4715</generatorID>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0A404BED-5754-0C9F-503C-C2EFF0166286</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pojazd" id="0CE065A3-380A-2EEF-2716-B0E666428D22">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:25:32 UTC</createdTime>
+<generatorID>C0941580-6325-142C-99AF-971A147B4715</generatorID>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D1465E0E-59E8-DDC3-4400-CD9E12CEE909</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Wydał_pojazd" id="7C89B2EE-E49E-7644-B1C1-A420F11B9602">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:25:32 UTC</createdTime>
+<generatorID>C0941580-6325-142C-99AF-971A147B4715</generatorID>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D0FFE606-1241-8313-6161-18D44FD858D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Wynajem" id="683A9606-892A-2CBF-22B9-BD4B7419E8E0">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:25:32 UTC</createdTime>
+<generatorID>C0941580-6325-142C-99AF-971A147B4715</generatorID>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9D86A1A5-E376-6D7C-98E3-5C26ABD4ED68</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF7B45AC-40CD-DC3B-AE26-C3D324CE8089" name="FakturyPozycje PK">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>85286E27-2DB8-9619-C372-C6FB71E8A834</attributeRef>
+<attributeRef>44841993-642B-B363-DAA3-E610608209AD</attributeRef>
+<attributeRef>C443DC0A-DA26-9D03-D7AD-0B35DABD6BAC</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="709722A2-A755-6981-85F1-A4A351D9137B" name="Wynajem">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<newElementsIDs>C0941580-6325-142C-99AF-971A147B4715</newElementsIDs>
+<usedAttributes>
+<attributeRef>73D20148-D1C5-0E9C-485D-7ED1316635E5</attributeRef>
+<attributeRef>0CE065A3-380A-2EEF-2716-B0E666428D22</attributeRef>
+<attributeRef>7C89B2EE-E49E-7644-B1C1-A420F11B9602</attributeRef>
+<attributeRef>683A9606-892A-2CBF-22B9-BD4B7419E8E0</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="972701E9-097E-44B8-E9D5-63313A6D6F0F" name="Wystawil">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:54:33 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<newElementsIDs>E25CC408-669A-1B4C-9381-B90F2BA6842D</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>

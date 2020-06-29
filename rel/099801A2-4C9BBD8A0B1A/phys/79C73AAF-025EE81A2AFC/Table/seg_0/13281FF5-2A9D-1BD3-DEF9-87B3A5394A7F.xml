@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Klienci" directorySegmentName="seg_0" id="13281FF5-2A9D-1BD3-DEF9-87B3A5394A7F">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Telefon" id="03C29F10-FE26-211F-6CB6-A31BF0E4BA86">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Id" id="03C6E292-11A5-E428-F29E-0C4C1AE733BD">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Data_dodania" id="3F8DE156-81A6-A3D0-D887-C479C6DBB30B">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Data_edycji" id="43137A87-F864-96E1-FF39-6A34B09F162F">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Nazwisko" id="80D3EC5C-E975-F270-FBF4-2A57A0E78B29">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Nazwa_firmy" id="885E9AAA-C100-A1BD-C048-EF3FEDC83222">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NIP_firmy" id="8B6C8DCE-7A06-F0E9-242D-8699492730A0">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Adres_faktura" id="980D17E9-79B3-8F50-814F-70F814B22B1C">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Zwrot_grzeczn" id="A1896E3A-4694-F0AF-0466-E51A2B05021A">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Pracownicy_Id1" id="A55D297A-1DC2-9BB8-E836-19E0D27B15A1">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Imie" id="A93C7D9C-F8A1-1855-45E4-28650396ACED">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Telefon_kom" id="D81CDACD-A90D-4E95-306D-54CB769A30BE">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Pracownicy_Id" id="FAE6917A-2C73-A1CF-D915-B3CA4A9B145C">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Adres" id="FCA98EDF-AAE6-58C5-26E7-3B260C21D1FA">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Klienci_Pracownicy_FKv2" id="FB8443E9-50E6-7970-AF3B-60983C7291FC">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Klienci_Pracownicy_FK" id="FD462EC1-A58D-547A-C819-895CCBE5EE23">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Klienci_PK" id="EABD4160-4C51-F0C1-2528-5570DDCDD222">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Klienci_Dodal_UN" id="32B06B18-43BF-6582-C271-1820B22A657B">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Klienci_Adres_UN" id="41D050FC-B804-C40B-FDAD-5AE2D3444D23">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Klienci_Telefon_kom_UN" id="5A37F7AF-6C5D-02C4-8951-29112EAEB4E5">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Klienci_Telefon_UN" id="691DD4A8-BFAD-58D4-2A1B-A7A53F4C1010">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Klienci_Adres_faktura_UN" id="F4454CDE-A8DD-6B2C-2E4F-6FFF96EF24B4">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

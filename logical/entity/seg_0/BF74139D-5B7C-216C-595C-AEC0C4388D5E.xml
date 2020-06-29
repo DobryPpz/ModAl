@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF74139D-5B7C-216C-595C-AEC0C4388D5E" name="FormyPlatnosci">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="956A8EAD-C777-6F89-32B7-B675072D7871">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>7A198401-014C-9DAC-1580-4F17F5DC0FEA</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa" id="D96F353C-CC46-9E59-D9BC-6458A037D662">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>75153481-FC48-3D78-6430-B116FC8BD877</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="65DCB88A-5ADA-5951-03AC-4A60EBEA7B8B" name="Formy_platnosci PK">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>956A8EAD-C777-6F89-32B7-B675072D7871</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

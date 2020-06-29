@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Pracownicy" directorySegmentName="seg_0" id="4A5973E9-9BB5-6463-9E5D-1CD69F875CAF">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Funkcja" id="18E022BE-AD8F-B77A-8731-B2E66D8E628B">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Login" id="30B53547-666A-967D-59D9-044EA07535CE">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Data_dodania" id="4EC14D57-0A47-E518-3396-9F5AB5A1990B">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Haslo" id="4FE6CE17-B26F-2FD6-CFE5-7158C9B0B95B">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Imie" id="59A65C2E-FC9D-A771-A51D-8DC6382F6CC5">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Pracownicy_Id" id="6AE4784B-169C-14D9-07E5-C1F138FA2EC7">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Id" id="8F03DB39-3B48-B455-CA9C-0E3F9BF9CD05">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Nazwisko" id="AFE455CA-DCA3-AE25-1B77-F7F74C27B61B">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Edytowal" id="C2490DE9-F39C-57C1-0BE6-71BAEC739FC7">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Dodal" id="C5E806AE-8622-221B-1342-AE3008FA3722">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Data_edycji" id="EA851C37-0F78-7D58-E370-9CF06635C568">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Przelozony" id="FCA56231-78AA-09ED-A427-DD9022EA5048">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 20:50:11 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Pracownicy_Pracow_FK" id="59628C4F-1A64-1C90-CCC7-B3085018B033">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Pracownicy_Pracow_FK1" id="DA3979E9-10B0-B8C6-429F-406853FE004A">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 20:51:48 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Pracownicy_PK" id="33EC2EE8-BB5C-D637-8BBF-0999A5E5ECD6">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

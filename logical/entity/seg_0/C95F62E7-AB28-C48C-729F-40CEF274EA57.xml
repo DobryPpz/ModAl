@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C95F62E7-AB28-C48C-729F-40CEF274EA57" name="Marki">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 11:46:17 UTC</createdTime>
+<comment><![CDATA[Marki pojazdów]]></comment>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="3B951979-2679-5A79-140E-D7DC2522D4FF">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 11:46:17 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>5B57F321-1C4D-9245-1BD2-C78EF582C306</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa" id="7F10F8E7-DF29-F36A-8585-F0525A2D85F3">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 11:46:17 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>E121155B-DB80-5DCC-BE90-F3E92558275E</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D30319D2-C375-485B-5244-4F8C2F94C045" name="Marka_pojazdu PK">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 11:46:17 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3B951979-2679-5A79-140E-D7DC2522D4FF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

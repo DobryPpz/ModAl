@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Marki" directorySegmentName="seg_0" id="75EA5DDA-8EFD-B69B-7B8E-EF107D38DB86">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Id" id="57A6608B-DAAC-442B-0BE8-265AA19DA929">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Nazwa" id="B9D84FC7-EA3B-3EFF-FDBF-7B532E212A81">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Marki_PK" id="0C292500-3542-855E-2880-D59681BE1149">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

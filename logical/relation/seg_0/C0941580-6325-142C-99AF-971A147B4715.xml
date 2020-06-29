@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Wynajmy - FakturyPozycje" directorySegmentName="seg_0" id="C0941580-6325-142C-99AF-971A147B4715">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:15:06 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<sourcePk>A2B09970-3BF9-8138-EBE3-7AD48C812ADC</sourcePk>
+<targetPk>DF7B45AC-40CD-DC3B-AE26-C3D324CE8089</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E8AD252C-C9CE-D106-76E5-880AB35BFDEA</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A44999B0-0954-8B58-7899-8504DCC2CE61</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8DA03C5B-A061-6E43-76E3-1984DBBB7D29" name="Funkcje">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 11:46:17 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="7794E8AF-848D-F023-4CDA-876E31091240">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 11:46:17 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>122DAE9F-7AAD-ACD8-448A-C7554C2848F4</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Opis" id="5D5CB15A-BBEE-7476-5449-162298E7F0CD">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 11:46:17 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>AE1A1441-5D43-13CF-1B4E-3E302B78E8B8</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6A83E6BE-24F1-A0FE-D008-9034624A5FCB" name="Funkcje PK">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 11:46:17 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7794E8AF-848D-F023-4CDA-876E31091240</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

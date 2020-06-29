@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pracownicy - Pojazdy.Opiekun_pojazdu" directorySegmentName="seg_0" id="FCC6323E-B6D6-C53E-A2C4-1FB4A6E6B0FE">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:07:34 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<sourcePk>28503A58-C76B-D378-8A8A-39D325B6A3C1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1C9FFBF7-5BA0-07F3-BAA5-41A7D6016A18</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B111A878-B10A-4A18-0B07-4FB505DC0A3E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

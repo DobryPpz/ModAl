@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pojazdy - Wynajmy" directorySegmentName="seg_0" id="054D7865-BCD9-4384-CDB9-41B1B34C9B3E">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:01:59 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<sourcePk>9C145E89-9FF5-5106-7C96-C80CE3C01702</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B111A878-B10A-4A18-0B07-4FB505DC0A3E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E8AD252C-C9CE-D106-76E5-880AB35BFDEA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

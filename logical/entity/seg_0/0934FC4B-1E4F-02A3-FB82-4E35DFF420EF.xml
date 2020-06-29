@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0934FC4B-1E4F-02A3-FB82-4E35DFF420EF" name="Modele">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 11:46:17 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="2D2D227B-EB95-D2C9-7C48-4911FB6D650B">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 11:46:17 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>B1E3D1B9-9F35-641B-348E-BB145049B1E6</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa" id="7EEBC383-2493-165C-FF58-D59E151F7B62">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 11:46:17 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>FB562C47-7052-A12C-4205-3C0683E21EBB</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Marka" id="670A0426-68B6-CACE-844C-E481C71BB7F6">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 11:46:17 UTC</createdTime>
+<generatorID>65B47318-FF0E-1FA2-E491-8AAC0308C522</generatorID>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>55CF7CA0-3901-84DC-DE98-15A9529CA32B</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<referedAttribute>3B951979-2679-5A79-140E-D7DC2522D4FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2AC032BD-3DEF-9046-5A00-BE07BACA89EE" name="Model PK">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 11:46:17 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>2D2D227B-EB95-D2C9-7C48-4911FB6D650B,65B47318-FF0E-1FA2-E491-8AAC0308C522</newElementsIDs>
+<usedAttributes>
+<attributeRef>2D2D227B-EB95-D2C9-7C48-4911FB6D650B</attributeRef>
+<attributeRef>670A0426-68B6-CACE-844C-E481C71BB7F6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

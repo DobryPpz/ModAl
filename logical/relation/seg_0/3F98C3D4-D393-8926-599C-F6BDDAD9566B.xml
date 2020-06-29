@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pracownicy - Funkcje" directorySegmentName="seg_0" id="3F98C3D4-D393-8926-599C-F6BDDAD9566B">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 12:51:56 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<sourcePk>626E33C6-B0E0-0370-7189-056BFA773C29</sourcePk>
+<targetPk>6A83E6BE-24F1-A0FE-D008-9034624A5FCB</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1C9FFBF7-5BA0-07F3-BAA5-41A7D6016A18</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8DA03C5B-A061-6E43-76E3-1984DBBB7D29</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

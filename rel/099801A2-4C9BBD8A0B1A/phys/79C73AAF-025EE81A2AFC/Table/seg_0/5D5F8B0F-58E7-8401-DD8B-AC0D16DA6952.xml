@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Wynajmy" directorySegmentName="seg_0" id="5D5F8B0F-58E7-8401-DD8B-AC0D16DA6952">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Uwagi" id="17476247-FE59-6DE8-E6EF-FF0602EFF19F">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Wydał_pojazd" id="22777FC8-08A8-40A9-4524-37F6B045BD65">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Data_przyjecia" id="39D8F154-5226-160A-BB05-E817032A2E03">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FakturyPozycje_Id" id="4B34229B-ADBF-AEA5-13EF-D86093BBF602">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Pracownicy_Id" id="7658A575-C8F4-4518-C304-E7337DD991A4">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Przyjal_pojazd" id="7A5F6657-79F6-DF0A-2710-2E37BA23F047">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Data_wydania" id="7BBA3B7E-3582-3E85-3AB5-50318B102686">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Pojazdy_Id" id="8A9D5E15-7969-F2FE-6A67-40A0DA2ACB8A">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FakturyPozycje_Faktury_Klient" id="9D8EB270-045B-89F5-FEEB-30A2FB95C78C">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Id" id="A4D37B2B-AF71-3A44-9255-B4FB65FEF09D">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Klient" id="B4B6E37F-234B-88E0-27C1-FCFD80AB9EBE">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Wynajem" id="E4154BEA-CF23-2EBA-122F-1C47A126FC87">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FakturyPozycje_Faktury_Id" id="F81C9378-46F8-151C-FDF6-593B29EFE14E">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Wynajmy_2_IDX" id="1F9337F6-5CFF-29BB-2B85-89513D4A5D1B">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 15:39:33 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Wynajmy_1_IDX" id="2338306B-58DA-E2D5-4891-36EADEA45B15">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Wynajmy_Pojazdy_FK" id="8FAADD18-3F99-D061-0D64-71FCDC6F06CB">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Wynajmy_Pracownicy_FK" id="92B1E2FB-D6F6-FD76-B55A-9DC11277E81A">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Wynajmy_FakturyPozycje_FK" id="E15A4894-F3B3-BDB0-A5C2-709B5323BA22">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Wynajmy_PK" id="F927B067-90D3-C1D2-65FA-93A03520738A">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Wynajmy_Przyjal_pojazd_UN" id="2900657A-C314-C1B0-2DD9-23A336496169">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:38:14 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

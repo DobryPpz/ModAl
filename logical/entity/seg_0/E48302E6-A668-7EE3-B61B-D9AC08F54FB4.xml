@@ -1,0 +1,302 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E48302E6-A668-7EE3-B61B-D9AC08F54FB4" name="Klienci">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="55594A42-6E33-8FCA-283C-0BA7796856B4">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>5CE3CBA5-E13B-BE40-F807-8A98D315E0DD</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zwrot_grzeczn" id="CF7BE6FA-7373-70AA-5C8C-5B8639B96505">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>7FAB8E9F-DE6A-384B-22FC-FF59E22E1A3D</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="00D1AE7B-44E8-0364-992F-6340D60CEB7A">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>4598D315-01C6-AD5F-1CE0-C79810767EDA</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="6B909A07-9CDF-0405-4D0C-8D598FAFEE43">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>5D297C7F-3082-0FAD-1837-C2FD8A0C73E5</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa_firmy" id="73068943-5F77-1BD0-DCBA-34D30F86B821">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>7EE00C7E-A30E-99A9-2531-BA3A849C4447</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIP_firmy" id="888EDE28-3A68-F050-0343-9149650248C9">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>D26D4BEF-FFB8-77FD-7CA8-428B473F6FB8</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefon" id="6F65B58F-E37C-B509-48DD-1EB4FA23D179">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:32:09 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefon_kom" id="67EF211B-C887-66B4-7D92-426C3846E91C">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>EA5E565E-8A04-7C35-AE8B-F9467EB46C88</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adres" id="2D1F6334-B150-640E-91C1-6418D5B89CD5">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>D6E3FA00-F33F-1AEA-E63C-8504B9AAFCD8</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Adres_faktura" id="8E0208C6-08B5-FBE6-19D3-49250FFE65BE">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>F1966392-DC86-9084-C7E3-2EA0F54F2632</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dodal" id="FE7ADF22-42B6-3C27-F8E9-EFAFFB8B5BCB">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:45:35 UTC</createdTime>
+<generatorID>485EE6C9-6EFE-E1B4-2A18-CAAA84F241DC</generatorID>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<referedAttribute>98762686-7C2F-F486-F580-338ED88ED62B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_dodania" id="FB5018F2-49B6-BC0C-1E85-FFB49418A8E0">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>231715A9-BBE4-5AC9-30A4-01F8E5F3F4D5</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Edytowal" id="4212DA5F-02C6-F4BA-62FD-E0F75345F226">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:48:07 UTC</createdTime>
+<generatorID>BD319F54-85BC-A042-5F8F-B05563C07076</generatorID>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<referedAttribute>98762686-7C2F-F486-F580-338ED88ED62B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_edycji" id="915CC54B-C8BB-23F0-F84F-967129A7DB15">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>3E1AE5EA-D150-2F85-B640-29ACACE78978</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A6203817-40E8-49F0-BC03-8EDEF1D9363D" name="Klient PK">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>55594A42-6E33-8FCA-283C-0BA7796856B4</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="37E42582-AF96-2078-8D1C-E0C15C07D36F" name="Adres">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="false"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>2D1F6334-B150-640E-91C1-6418D5B89CD5</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="FD209EDB-7286-56A4-324C-242A60B802BC" name="Adres_faktura">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="false"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>8E0208C6-08B5-FBE6-19D3-49250FFE65BE</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="BE630935-22A9-77F1-3DA5-A49BCC6AEA73" name="Telefon">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:41:36 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<newElementsIDs>6F65B58F-E37C-B509-48DD-1EB4FA23D179</newElementsIDs>
+<usedAttributes>
+<attributeRef>6F65B58F-E37C-B509-48DD-1EB4FA23D179</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="744B143B-9B0F-3BFC-111B-DF59EE59D940" name="Telefon_kom">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:41:53 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<newElementsIDs>67EF211B-C887-66B4-7D92-426C3846E91C</newElementsIDs>
+<usedAttributes>
+<attributeRef>67EF211B-C887-66B4-7D92-426C3846E91C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="EAEE7D53-D85D-8F5E-0B70-D2BAF396089B" name="Dodal">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:46:34 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<newElementsIDs>485EE6C9-6EFE-E1B4-2A18-CAAA84F241DC</newElementsIDs>
+<usedAttributes>
+<attributeRef>FE7ADF22-42B6-3C27-F8E9-EFAFFB8B5BCB</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="242AD6AD-AC4D-F70D-B26E-F741A445B6A5" name="Edytowal">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:49:17 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<newElementsIDs>BD319F54-85BC-A042-5F8F-B05563C07076</newElementsIDs>
+<usedAttributes>
+<attributeRef>4212DA5F-02C6-F4BA-62FD-E0F75345F226</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

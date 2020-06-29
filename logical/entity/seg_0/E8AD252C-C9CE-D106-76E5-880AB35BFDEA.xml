@@ -1,0 +1,243 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8AD252C-C9CE-D106-76E5-880AB35BFDEA" name="Wynajmy">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:00:24 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="0A404BED-5754-0C9F-503C-C2EFF0166286">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:00:24 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>E780F528-5BDA-1351-E956-DF179E3FC57F</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pojazd" id="D1465E0E-59E8-DDC3-4400-CD9E12CEE909">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:00:24 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>6692533C-A20B-C10C-D57F-C9F9B47B4B0B</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Wydał_pojazd" id="D0FFE606-1241-8313-6161-18D44FD858D5">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:00:24 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>D56C4A12-380F-C3EA-860A-8F831D1C5A30</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Klient" id="380F703C-9723-D168-F32D-ED8C8FB9BDB6">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:00:24 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>416AB375-2996-61C9-0DB1-DD15875EE131</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Przyjal_pojazd" id="3B4EBA8E-8626-3ED3-5D26-46951D082FC7">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:00:24 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>11EAE354-27E9-6D75-DFBB-AD80BFE84F43</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_wydania" id="019AFA5C-9BDC-2E50-A6CA-4D50AC3E00EC">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:00:24 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>FFF6624F-D2E6-BD81-FA14-9B356C8569B7</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_przyjecia" id="93CD600D-096D-A851-AB71-93D4CA79E1E2">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:00:24 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>0279E6F5-5C62-10BB-46EF-82D1B0E37D89</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Uwagi" id="A91633AB-99EA-D825-E6FA-10ACA4BB2B00">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:00:24 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>2714B067-A4C1-CDE1-5D18-415C8A51EC9F</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Wynajem" id="B00B24E7-2DCE-D438-6D1F-06E0E10AC50D">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:00:24 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>1C0750AF-5B45-BA6C-AF81-192F3C9FC2D9</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="AFF9E4CB-759C-3821-CDE8-A628D70615E1">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:01:18 UTC</createdTime>
+<generatorID>76554AEC-037F-B8D2-E1FE-926F196428C0</generatorID>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<referedAttribute>98762686-7C2F-F486-F580-338ED88ED62B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id2" id="9D86A1A5-E376-6D7C-98E3-5C26ABD4ED68">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:01:59 UTC</createdTime>
+<generatorID>054D7865-BCD9-4384-CDB9-41B1B34C9B3E</generatorID>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<referedAttribute>9F2B97DB-D97D-0A4F-56CB-BD72A232A390</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id3" id="B350FF75-9374-8DD9-7E63-547792EC5777">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:25:14 UTC</createdTime>
+<generatorID>C0941580-6325-142C-99AF-971A147B4715</generatorID>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>85286E27-2DB8-9619-C372-C6FB71E8A834</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Faktura" id="7E63D5FC-ACF9-E5CC-ECBB-8FE4062F2F74">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:25:14 UTC</createdTime>
+<generatorID>C0941580-6325-142C-99AF-971A147B4715</generatorID>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>44841993-642B-B363-DAA3-E610608209AD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Klient1" id="CC818738-084F-2C89-FB0E-6668B0495301">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:25:14 UTC</createdTime>
+<generatorID>C0941580-6325-142C-99AF-971A147B4715</generatorID>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C443DC0A-DA26-9D03-D7AD-0B35DABD6BAC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2B09970-3BF9-8138-EBE3-7AD48C812ADC" name="Wynajmy PK">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:00:24 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0A404BED-5754-0C9F-503C-C2EFF0166286</attributeRef>
+<attributeRef>D1465E0E-59E8-DDC3-4400-CD9E12CEE909</attributeRef>
+<attributeRef>D0FFE606-1241-8313-6161-18D44FD858D5</attributeRef>
+<attributeRef>9D86A1A5-E376-6D7C-98E3-5C26ABD4ED68</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="D2274BE2-F97A-EF0E-C0E1-8544D44F541C" name="Przyjal_pojazd">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:00:24 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="false"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>3B4EBA8E-8626-3ED3-5D26-46951D082FC7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

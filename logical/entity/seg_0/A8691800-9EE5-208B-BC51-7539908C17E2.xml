@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8691800-9EE5-208B-BC51-7539908C17E2" name="Faktury">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="7DF79776-3348-9FF3-AEDA-2C5D767FD804">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>C6004E19-A827-5434-9BE5-B737B51478D0</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Klient" id="E8F11F52-70BD-4E60-61A2-A9395FF58CD2">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<generatorID>5BCBB1D3-657B-7E5F-59A6-E31946D47A54</generatorID>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>22DDFC72-9BFF-E83A-6182-E8CCE54D2A19</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<referedAttribute>55594A42-6E33-8FCA-283C-0BA7796856B4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numer_faktury" id="E269CEEB-B3F0-3D50-7B7B-B94F7E157080">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>FE145C8D-DB3E-7A6D-61AB-DDC1005B55DA</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_sprzedazy" id="EA714E49-9C67-6B17-632B-296EB858D2FF">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>3F7BA229-0365-1F02-A990-ACC178668B0C</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_wystawienia" id="03CF2AC8-070F-E3E9-08BF-E7264904ABB6">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>D0810818-32EF-AE95-6CDF-1F290059D1C5</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Termin_platnosci" id="4FA1C864-CFA9-731C-820D-8BFB453E5DEB">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>04A1B8D9-BA8E-875E-4734-12812139BED7</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Forma_platnosci" id="460629BC-E5E7-44AF-979B-0C7D5ABB1B47">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<generatorID>5687AAFA-922A-AF40-5053-6210104F38CE</generatorID>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>C9E4A5A9-76A1-B92A-0F39-16872624B121</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<referedAttribute>956A8EAD-C777-6F89-32B7-B675072D7871</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Wystawil" id="0C42B342-A97C-010C-09E8-2F31CFD809B0">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:56:33 UTC</createdTime>
+<generatorID>E7E06589-5D93-84A8-282B-8ADBA3A03C6B</generatorID>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<referedAttribute>98762686-7C2F-F486-F580-338ED88ED62B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8E2F4AA6-C7E0-7A5C-52D7-FC2834B01123" name="Faktury PK">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:17:01 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7DF79776-3348-9FF3-AEDA-2C5D767FD804</attributeRef>
+<attributeRef>E8F11F52-70BD-4E60-61A2-A9395FF58CD2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

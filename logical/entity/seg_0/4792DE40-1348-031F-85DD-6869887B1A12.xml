@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4792DE40-1348-031F-85DD-6869887B1A12" name="PrzegladyPojazdow">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 11:46:17 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="643E29F3-25F8-E51B-8E20-648140D30673">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 11:46:17 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>4414C653-1B79-65EF-3E1D-8D61E059E629</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pojazd" id="C7884CFA-2ABB-F644-A5C6-7A96E4594245">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 13:11:57 UTC</createdTime>
+<generatorID>39A4B49C-CB2A-92B0-6A12-5756FBF3A75D</generatorID>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<referedAttribute>9F2B97DB-D97D-0A4F-56CB-BD72A232A390</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_przegladu" id="2FFD5E8B-B687-0CBD-C630-13BDCC70A8F2">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 11:46:17 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>759F49E6-FCB5-758D-BC72-76335C838AFF</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Koszt_netto" id="177C56E4-89B3-3282-1B2F-BA2FDF052636">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 11:46:17 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<importedID>4C75FBC8-8322-ECF1-6904-2F4AAFA25E79</importedID>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dokonal_przegladu" id="BA01325B-F1D0-8AEE-0F42-DDC2A0CEC66A">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 14:11:54 UTC</createdTime>
+<generatorID>5B3FC67B-CEF9-54C2-7E91-09CCD973565D</generatorID>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="true"/>
+</engineerTo>
+<referedAttribute>98762686-7C2F-F486-F580-338ED88ED62B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="95A303B8-8C97-5ACD-B098-FBC0B925A8FE" name="Przeglady PK">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 11:46:17 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="099801A2-F290-B39A-3173-4C9BBD8A0B1A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>643E29F3-25F8-E51B-8E20-648140D30673</attributeRef>
+<attributeRef>C7884CFA-2ABB-F644-A5C6-7A96E4594245</attributeRef>
+<attributeRef>BA01325B-F1D0-8AEE-0F42-DDC2A0CEC66A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
