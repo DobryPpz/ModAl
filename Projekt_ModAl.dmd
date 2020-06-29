@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Projekt_ModAl" id="81B29260-A3C1-6F53-C4EF-BF026D5C4345" version="3.5">
+<createdBy>alex</createdBy>
+<createdTime>2020-06-28 11:45:42 UTC</createdTime>
+<ownerDesignName>Projekt_ModAl</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>81B29260-A3C1-6F53-C4EF-BF026D5C4345</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="1B321894-3FEC-A9B5-CF88-9E67FDEBEF4C">
+<designStoragePath>C:\studia\BD\zaliczenie</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
